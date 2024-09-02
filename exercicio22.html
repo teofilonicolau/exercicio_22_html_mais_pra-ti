@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página de registro para o curso Full Stack 2"
+    />
+    <title>Registro de Usuário</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="font-family: 'Open Sans', sans-serif">
+    <nav style="background-color: #f8f9fa; padding: 10px">
+      <a
+        href="#home"
+        style="
+          margin: 0 10px;
+          text-decoration: none;
+          color: brown;
+          font-weight: bold;
+        "
+        >Início</a
+      >
+      <a
+        href="#sobre"
+        style="
+          margin: 0 10px;
+          text-decoration: none;
+          color: brown;
+          font-weight: bold;
+        "
+        >Sobre Nós</a
+      >
+      <a
+        href="#contato"
+        style="
+          margin: 0 10px;
+          text-decoration: none;
+          color: brown;
+          font-weight: bold;
+        "
+        >Contato</a
+      >
+    </nav>
+
+    <main>
+      <h1 style="text-align: center">Registro de Usuário</h1>
+
+      <section>
+        <p style="text-align: justify; margin: 20px 0">
+          Bem-vindo à página de registro. Preencha o formulário abaixo para
+          criar sua conta.
+        </p>
+
+        <form>
+          <label for="nome" style="display: block; margin-bottom: 10px"
+            >Nome:</label
+          >
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            style="
+              margin-bottom: 20px;
+              padding: 8px;
+              width: 100%;
+              max-width: 300px;
+            "
+          />
+
+          <label for="email" style="display: block; margin-bottom: 10px"
+            >Email:</label
+          >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            style="
+              margin-bottom: 20px;
+              padding: 8px;
+              width: 100%;
+              max-width: 300px;
+            "
+          />
+
+          <label for="senha" style="display: block; margin-bottom: 10px"
+            >Senha:</label
+          >
+          <input
+            type="password"
+            id="senha"
+            name="senha"
+            style="
+              margin-bottom: 20px;
+              padding: 8px;
+              width: 100%;
+              max-width: 300px;
+            "
+          />
+
+          <label
+            for="confirmacao-senha"
+            style="display: block; margin-bottom: 10px"
+            >Confirme a senha:</label
+          >
+          <input
+            type="password"
+            id="confirmacao-senha"
+            name="confirmacao-senha"
+            style="
+              margin-bottom: 20px;
+              padding: 8px;
+              width: 100%;
+              max-width: 300px;
+            "
+          />
+
+          <button
+            type="submit"
+            style="
+              padding: 10px 20px;
+              background-color: #4caf50;
+              color: white;
+              border: none;
+              cursor: pointer;
+            "
+          >
+            Registrar
+          </button>
+        </form>
+      </section>
+
+      <section>
+        <h2 style="text-align: center">Lista de Cursos</h2>
+        <ul style="margin-bottom: 20px">
+          <li style="margin-bottom: 10px">Curso de HTML</li>
+          <li style="margin-bottom: 10px">Curso de CSS</li>
+          <li style="margin-bottom: 10px">Curso de JavaScript</li>
+        </ul>
+
+        <h2 style="text-align: center">FAQ</h2>
+        <ol style="margin-bottom: 20px">
+          <li style="margin-bottom: 10px">O que é HTML?</li>
+          <li style="margin-bottom: 10px">Como o CSS funciona?</li>
+          <li style="margin-bottom: 10px">Para que serve o JavaScript?</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2 style="text-align: center">Tabela de Preços</h2>
+        <table style="width: 100%; border-collapse: collapse; margin-top: 20px">
+          <tr>
+            <th
+              style="border: 1px solid black; padding: 10px; text-align: center"
+            >
+              Produto
+            </th>
+            <th
+              style="border: 1px solid black; padding: 10px; text-align: center"
+            >
+              Preço
+            </th>
+          </tr>
+          <tr>
+            <td
+              style="border: 1px solid black; padding: 10px; text-align: center"
+            >
+              Notebook
+            </td>
+            <td
+              style="border: 1px solid black; padding: 10px; text-align: center"
+            >
+              R$ 2500
+            </td>
+          </tr>
+          <tr>
+            <td
+              style="border: 1px solid black; padding: 10px; text-align: center"
+            >
+              Smartphone
+            </td>
+            <td
+              style="border: 1px solid black; padding: 10px; text-align: center"
+            >
+              R$ 1500
+            </td>
+          </tr>
+        </table>
+      </section>
+    </main>
+
+    <footer
+      style="
+        margin-top: 20px;
+        text-align: center;
+        padding: 10px;
+        background-color: #f1f1f1;
+      "
+    >
+      <p>&copy; 2024 Desenvolvido por Teofilo Nicolau</p>
+    </footer>
+  </body>
+</html>
