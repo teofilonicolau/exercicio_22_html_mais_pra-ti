@@ -14,12 +14,16 @@ A página HTML contém as seguintes seções e elementos:
   - **Listas**: Listas ordenadas e não ordenadas, contendo itens relacionados ao conteúdo da página.
   - **Tabelas**: Tabela com dados fictícios sobre produtos, incluindo cabeçalho e células de dados.
   - **Formulário de Registro**: Formulário simples para registro de usuário, incluindo campos de texto e senha.
+  - ![image](https://github.com/user-attachments/assets/ae9a743d-0a5b-417a-862d-239bb76e6354)
+
 
 ## Tecnologias Utilizadas
 
 - **HTML5**: Para estruturar a página.
 - **CSS3**: Para estilizar a página, incluindo a utilização de fontes personalizadas e formatação inline.
 - **Google Fonts**: Para importar e aplicar fontes personalizadas em toda a página.
+- ![image](https://github.com/user-attachments/assets/ca44afaf-0582-40f8-ba5d-c69ff0874662)
+
 
 ## Instruções de Uso
 
